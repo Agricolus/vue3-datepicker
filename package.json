@@ -41,7 +41,8 @@
   "scripts": {
     "dev": "vite",
     "build:demo": "vite build",
-    "build:component": "rollup -c build/rollup.config.js"
+    "build:component": "rollup -c build/rollup.config.js",
+    "prepare": "npm run build:component"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0",
