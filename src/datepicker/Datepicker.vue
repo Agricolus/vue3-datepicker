@@ -59,6 +59,7 @@ export default defineComponent({
     MonthPicker,
     DayPicker,
   },
+  emits: ['update:modelValue'],
   props: {
     placeholder: {
       type: String,
